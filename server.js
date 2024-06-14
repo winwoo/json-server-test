@@ -7,7 +7,7 @@ try {
     server.use(middlewares);
     server.use(router);
     server.listen(3000, () => {
-        console.log('JSON Server is running on port 3000');
+        console.log('test');
     });
 } catch (e) {
     console.log(e);
